@@ -44,3 +44,7 @@ jobs:
           npm install --production
           pm2 start npm --name "my-next-app" -- start || pm2 restart "my-next-app"
           pm2 save
+
+
+
+          
